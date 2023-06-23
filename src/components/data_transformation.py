@@ -26,8 +26,9 @@ class DataTransformationconfig:
 
 ## Data Ingestionconfig class
 
-class DataTransformation:                       ##will make pickle file 
-    def __init__(self):                    
+class DataTransformation:
+    
+    def __init__(self):
         self.data_transformation_config=DataTransformationconfig()
 
     def get_data_transformation_object(self):   ##make pickel file
